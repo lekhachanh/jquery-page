@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container" style="height: auto">
+    <div id="header">
+        <header class="row">
+            <div class="jquery">
+                <div>
+                    <img class="pull-left" src="jquery.png" height="174" width="290" style="margin-left: 20px"/>
+                </div>
+                <div>
+                    <img src="jqrui.png" height="188" width="269" class="pull-right"/>
+                </div>
+            </div>
+        </header>
+    </div>
+    <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Download</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">API Documentation <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Plugins</a></li>
+                        <li><a href="#">Browser Support</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </nav>
+    <div id="left">
+        <ul>
+            <li><a href="#">Ajax</a>
+                <ul>
+                    <li><a href="#">Global Ajax Event Handlers</a></li>
+                    <li><a href="#">Help function</a></li>
+                    <li><a href="#">Low - level interface</a></li>
+                    <li><a href="#">Shorthand Method</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Dimensions</a>
+                <ul>
+                    <li><a href="#">Basics</a></li>
+                    <li><a href="#">Custom</a></li>
+                    <li><a href="#">Fading</a></li>
+                    <li><a href="#">Sliding</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Effects</a></li>
+            <li><a href="#">Events</a>
+                <ul>
+                    <li><a href="#">Browser Event</a></li>
+                    <li><a href="#">Document Loading</a></li>
+                    <li><a href="#">Event Object</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Forms</a></li>
+            <li><a href="#">Internal</a></li>
+        </ul>
+
+    </div>
+    <div id="content">
+        <p>
+        <h1>jQuery API</h1></p>
+        <p>
+            jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal
+            and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across
+            a multitude of browsers. If you're new to jQuery, we recommend that you check out the jQuery Learning
+            Center.
+
+            If you're updating to a newer version of jQuery, be sure to read the release notes published on our blog. If
+            you're coming from a version prior 1.9, you should check out the 1.9 Upgrade Guide as well.
+
+            Note that this is the API documentation for jQuery core. Other projects have API docs in other
+            locations:</p>
+        <ul>
+            <li><a href="#">jQuery UI API docs</a></li>
+            <li><a href="#">jQuery Mobile API docs</a></li>
+            <li><a href="#">QUnit API docs</a></li>
+        </ul>
+        <article class="col-sm-12">
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#">.add()</a>
+                    </h4>
+                </div>
+                <div class="panel-body">
+                    <h5>Create a new jQuery object with elements added to the set of matched elements.</h5>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#">.addBack()</a>
+                    </h4>
+                </div>
+                <div class="panel-body">
+                    <h5>Add the previous set of elements on the stack to the current set, optionally filtered by a
+                        selector.</h5>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#">.addClass()</a>
+                    </h4>
+                </div>
+                <div class="panel-body">
+                    <h5>Adds the specified class(es) to each element in the set of matched elements.</h5>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>
+</body>
+</html>
